@@ -1,0 +1,33 @@
+.whu{
+    max-width: 1240px;
+    height: 748px;
+    width: 100%;
+    margin-top: 67px;
+    margin-bottom: 67px;
+}
+.whu__cards{
+    display: flex;
+    padding: 72px;
+    flex-wrap: wrap;
+    gap: 62px;
+}
+.card{
+    max-width: 447px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    &__text{
+        width: 100%;
+        h3{
+            color: #363738;
+            font-family: "Exo 2", sans-serif;
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        p{
+            font-family: "PT Sans", sans-serif;
+            color: #6B6B6C;
+            line-height: 24px;
+        }
+    }
+}

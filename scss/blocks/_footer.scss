@@ -1,0 +1,64 @@
+.section__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    justify-content: space-around;
+    background-color: #0B7572;
+    margin-bottom: 100px;
+
+}
+.section_text{
+    font-size: 60px;
+    font-family: "Exo";
+    color: #fff;
+    margin-top: 59px;
+}
+.section__ul_li_a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: "Pt_sans";
+}
+.section__ul__li{
+    text-decoration: none;
+    margin-top: 80px;
+    list-style-type: none;
+    color: #fff;
+    li{
+        margin-bottom: 25px;
+        
+    }
+}
+.section__p{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    p{
+    color: #fff;
+    font-size: 13px;
+    font-family: "Pt_sans";
+    }
+}
+.section__wrapper__tittle{
+    max-width: 271px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 80px;
+    gap: 32px 10px;
+
+    p{
+        color: #fff;
+        margin: 32px 0;
+    }
+    .bi-instagram{
+        margin-right: 15px;
+    }
+}
+.section__wrapper__tittle_btn{
+    background-color: #FF9619;
+    max-width: 271px;
+    width: 100%;
+    height: 42px;
+    border: none;
+}

@@ -1,0 +1,42 @@
+.logo{
+    max-width: 1212px;
+    height: 576px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    h3{
+        font-size: 48px;
+        color: #363738;
+        font-family: "Exo 2", sans-serif;
+        margin-bottom: 90px;
+    }
+    &__box{
+        max-width: 184px;
+        height: 184px;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        
+        h3{
+            font-size: 20px;
+            color: #363738;
+            font-family: "Exo 2", sans-serif;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+        p{
+            font-size: 14px;
+            color: #6B6B6C;
+            font-family: "PT Sans", sans-serif;
+
+        }
+    }
+}
+.logo__cards{
+    max-width: 1240px;
+    display: flex;
+    gap:96px 132px ;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+
