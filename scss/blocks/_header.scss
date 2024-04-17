@@ -43,25 +43,3 @@ header{
     color: #272725;
 }
 
-@media only screen and (max-width: 691px) {
-    .hero{
-        display: block;
-    }
-    .hero__content{
-        text-align: center;
-    }
-    .hero__img{
-        width: 100%;
-    }
-}
-@media only screen and (max-width: 346px) {
-    .hero{
-        display: block;
-    }
-    .hero__content{
-        text-align: start;
-    }
-    .hero__img{
-        width: 100%;
-    }
-}

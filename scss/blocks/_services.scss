@@ -26,16 +26,3 @@
         line-height: 24px;
     }
 }
-
-@mixin line($bl,$h, $p, $l ){
-    border-left:$bl ;
-    height: $h;
-    position: $p;
-    left: $l;
-}
-.vertical{
-   @include line(1px solid #D7D7DD, 260px, absolute, 32%)
-}
-.vertical2{
-    @include line(1px solid #D7D7DD, 260px, absolute, 65%)
- }
